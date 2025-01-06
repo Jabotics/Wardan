@@ -69,11 +69,11 @@ const ProductsCarousel = () => {
             <div className="content">
               <div className="content__left">
                 <div className="content__left-side content__left-side--front">
-                  <Image src={item.imageSrc} alt={item.title} priority />
+                  <img src={`${item.imageSrc}`} alt={item.title} />
                 </div>
 
                 <div className="content__left-side content__left-side--back">
-                  <Image src={item.backImageSrc} alt={item.title} priority />
+                  <img src={`${item.backImageSrc}`} alt={item.title} />
                 </div>
               </div>
 

@@ -50,7 +50,7 @@ const Slider = () => {
       >
         {BANNER_SLIDES.map((partner, index) => (
           <div key={index} className="carousel-item">
-            <Image src={partner.image} alt={partner.title} priority />
+            <img src={`${partner.image}`} alt={partner.title} />
             <div className="content">
               <SliderContent key={currentIndex} currentIndex={currentIndex} />
             </div>

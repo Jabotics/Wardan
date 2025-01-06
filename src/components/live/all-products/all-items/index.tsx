@@ -15,12 +15,12 @@ const AllItems = () => {
           return (
             <section className={`all-items__content--info ${item.title.split(' ')[0].toLowerCase()}-bg`} key={index}>
               <div className="image">
-                <Image
+                <img
                   src={item.imgSrc}
                   alt='Jeera Masala'
                   width={400}
                   height={400}
-                  priority
+                  // priority
                 />
               </div>
               <div className="content">

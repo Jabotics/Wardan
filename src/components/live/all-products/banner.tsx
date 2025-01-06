@@ -14,7 +14,7 @@ const Banner = () => {
           </div>
 
           <div className="product-btn">
-            <Image
+            <img
               src={'/images/100-perc-natural.png'}
               alt='100% natural'
               width={130}
@@ -27,7 +27,7 @@ const Banner = () => {
       <div className='all-product__description'>
         <div className="jars">
           <div className="jar">
-            <Image
+            <img
               src={'/images/jar-about-1.png'}
               alt='jar-1'
               width={100}
@@ -35,7 +35,7 @@ const Banner = () => {
             />
           </div>
           <div className="jar">
-            <Image
+            <img
               src={'/images/jar-about-2.png'}
               alt='jar-1'
               width={100}

@@ -1,5 +1,5 @@
 // IMAGES
-import { StaticImageData } from "next/image";
+// import { StaticImageData } from "next/image";
 // import {
 //   // FRONT
 //   dhaniyaFront,
@@ -17,8 +17,8 @@ import { StaticImageData } from "next/image";
 // } from "../../../public/images/products/both-sides";
 
 const createItem = (
-  imageSrc: StaticImageData | string,
-  backImageSrc: StaticImageData | string,
+  imageSrc: string,
+  backImageSrc: string,
   title: string,
   description: string,
   description1: string,

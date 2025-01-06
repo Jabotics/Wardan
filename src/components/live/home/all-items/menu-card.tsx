@@ -1,4 +1,4 @@
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 import CardDescription from "./menu-card-description";
 import { IoIosArrowForward } from "react-icons/io";
 
@@ -8,7 +8,7 @@ const MenuCard = ({
   description,
   altText,
 }: {
-  imageSrc: StaticImageData;
+  imageSrc: string;
   title: string;
   description: string;
   altText: string;
@@ -20,7 +20,7 @@ const MenuCard = ({
           className="card-banner img-holder"
           style={{ width: 200, height: 200 }}
         >
-          <Image
+          <img
             src={imageSrc}
             width="200"
             height="200"

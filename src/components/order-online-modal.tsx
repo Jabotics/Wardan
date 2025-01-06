@@ -27,7 +27,7 @@ const OrderOnlineModal = () => {
           {OUR_PARTNERS.map((item, index) => {
             return (
               <div key={index} className="partners__item">
-                <Image src={item.imgSrc} alt={item.name} />
+                <img src={item.imgSrc} alt={item.name} />
               </div>
             );
           })}

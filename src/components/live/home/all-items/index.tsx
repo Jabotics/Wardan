@@ -12,7 +12,7 @@ const AllItemsSection = () => {
       </h2>
 
       <div className="pattern-bg">
-        <Image
+        <img
           src={'/images/pattern-dots.png'}
           alt="pattern dots"
           width={450}

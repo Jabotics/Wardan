@@ -1,8 +1,8 @@
-import { StaticImageData } from "next/image";
+// import { StaticImageData } from "next/image";
 
 export interface Items {
-  imageSrc: StaticImageData;
-  backImageSrc: StaticImageData;
+  imageSrc: string;
+  backImageSrc: string;
   title: string;
   heading(): string;
   description: string;

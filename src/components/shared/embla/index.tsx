@@ -40,7 +40,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
           {slides.map((item, index) => (
             <div className="embla__slide" key={index}>
               <MenuCard
-                imageSrc={item.imageSrc}
+                imageSrc={`${item.imageSrc}`}
                 title={item.title}
                 // price={item.price}
                 description={item.description}

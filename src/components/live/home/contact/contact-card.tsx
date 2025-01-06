@@ -1,13 +1,13 @@
 import Separator from "@/components/shared/separator";
 import { OUR_PARTNERS } from "@/config/constants/partners-data";
-import Image from "next/image";
+// import Image from "next/image";
 
 const ContactCard = () => {
   return (
     <div className="contact-card">
       <div className="contact-card__left">
         <div className="logo">
-          <Image
+          <img
             src={"/images/logo_2.svg"}
             alt="logo"
             width={350}
@@ -23,7 +23,7 @@ const ContactCard = () => {
           {OUR_PARTNERS.map((item, index) => {
             return (
               <div className="contact-card__left--partners__item" key={index}>
-                <Image src={item.imgSrc} alt={item.name} width={50} />
+                <img src={item.imgSrc} alt={item.name} width={50} />
               </div>
             );
           })}

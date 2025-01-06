@@ -124,7 +124,7 @@ const AboutUsDetails = () => {
           </a>
         </div>
         <figure className="about-banner">
-          <Image
+          <img
             src={"/images/about-banner.jpg"}
             width={570}
             height={570}
@@ -163,7 +163,7 @@ const AboutUsDetails = () => {
             </div>
           </div>
           <div className="abs-img ">
-            <Image
+            <img
               src={"/images/badge-2.png"}
               width="133"
               height="134"

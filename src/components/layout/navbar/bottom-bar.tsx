@@ -20,6 +20,8 @@ const Bottombar = ({ scrolled }: { scrolled: boolean }) => {
   useEffect(() => {
     if (location.split("/").includes("all-products")) {
       setActiveTab("products");
+    } else {
+      setActiveTab("home")
     }
   }, [location]);
 

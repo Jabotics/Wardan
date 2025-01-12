@@ -182,6 +182,8 @@
 
   .item-2 {
     overflow: hidden;
+
+    background-color: $color-black-shade1;
     &--img {
       height: 100%;
       width: 100%;
@@ -221,7 +223,7 @@
               left: 50%;
               transform: translate(-50%, -50%);
 
-              width: 75%;
+              width: 85%;
               height: 65%;
 
               background-color: rgba($color-black, 0.4);
@@ -235,10 +237,15 @@
               .subtitle {
                 color: $color-white;
 
-                font-size: 2rem !important;
+                font-size: 1.6rem !important;
                 font-weight: 600;
 
                 margin: 2rem auto 1rem;
+
+                @media (max-width: $screen-md) {
+                  margin-bottom: 0.5rem;
+                  font-size: 1.2rem !important;
+                }
               }
 
               .separator {
@@ -250,7 +257,7 @@
               }
 
               .title {
-                font-size: 6rem;
+                font-size: 5rem;
                 font-weight: $font-normal;
                 color: $color-white-shade1;
 
@@ -262,8 +269,9 @@
                 }
 
                 @media (max-width: $screen-md) {
-                  font-size: $font-size-4xl;
-                  padding: 0 2rem;
+                  font-size: $font-size-3xl;
+                  padding: 1rem 2rem;
+                  font-weight: 700;
                 }
               }
 

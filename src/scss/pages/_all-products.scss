@@ -2,19 +2,19 @@
   min-height: 100vh;
 
   .banner {
-    height: 46.4vh;
+    height: 40vh;
     width: 100%;
-    background-color: rgb(210, 210, 210);
+    background-color: rgb(140, 71, 71);
     margin-top: 1rem;
     margin-bottom: 5rem;
 
-    background: url('../../../public/images/patttern-bg-1.png');
-    background-position: right top;
-    background-size: cover;
-    background-repeat: no-repeat;
+    // background: url('../../../public/images/patttern-bg-1.png');
+    // background-position: right top;
+    // background-size: cover;
+    // background-repeat: no-repeat;
 
     @media (max-width: 1024px) {
-      height: 50vh;
+      height: 35vh;
     }
 
     // @media (min-width: 1440px) {
@@ -56,12 +56,15 @@
 
         h2 {
           font-size: 65px;
+          text-shadow: 1px 1px 3px white;
+          color: whitesmoke;
+
+          margin-bottom: 0.5rem !important;
 
           @media (max-width: 768px) {
             font-size: 40px;
             font-weight: 800;
 
-            text-shadow: 2px 2px 5px white;
           }
         }
 
@@ -69,6 +72,7 @@
           margin-top: -10px;
           font-size: 12px;
           // letter-spacing: 5px;
+          color: wheat;
 
           @media (min-width: 768px) {
             font-size: 24px;
@@ -79,7 +83,7 @@
           
           font-size: 16px;
           font-weight: light;
-          color: black;
+          color: white;
           letter-spacing: 2px;
 
           :first-child {
@@ -88,7 +92,7 @@
 
           @media (max-width: 768px) {
             font-size: 13px;
-            color: black;
+            color: white;
             text-shadow: 1px 1px 0 rgb(212, 212, 212);
           }
         }
@@ -110,6 +114,9 @@
           justify-content: center;
 
           font-size: 16px;
+          color: whitesmoke;
+
+          background-color: rgba(245, 222, 179, 0.178);
 
           @media (max-width: 768px) {
             width: 150px;
